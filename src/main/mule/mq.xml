@@ -2,4 +2,8 @@
 
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd"></mule>
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="mqFlow" doc:id="4fe8046a-5a79-4e1a-95e3-b9804ae8e969" >
+		<logger level="INFO" doc:name="Logger" doc:id="24429bc3-f672-4ade-85bf-f15cccc9d637" message="Flow added"/>
+	</flow>
+</mule>
